@@ -54,6 +54,11 @@
       display: block;
     }
 
+    h1 {
+      font-size: 2em;
+      margin: 0.67em 0;
+    }
+
     .container {
       display: flex;
       justify-content: space-between;
@@ -84,11 +89,9 @@
 
   <header class="header">Header</header>
 
-  <main class="main">
-    <article class="article">
-      Article
-
-      <section class="section">
+  <main class="main">Main
+    <article class="article">Article
+      <section class="section">Section
         <h1 class="h1">Section Heading h1</h1>
         <h2 class="h2">Section Heading h2</h2>
         <h3 class="h3">Section Heading h3</h3>
@@ -101,7 +104,7 @@
           totam sequi
           provident, a eum laborum dolorem. Error quos ad placeat consectetur odio facilis ullam repellendus!</p>
         <button class="button" onclick="window.alert('Hello world!')">Button</button>
-        <ul class="ul">
+        <ul class="ul" role="list">
           <li class="li">List item 1</li>
           <li class="li">List item 2</li>
           <li class="li">List item 3</li>
